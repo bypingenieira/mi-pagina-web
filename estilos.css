@@ -139,3 +139,24 @@ footer {
   text-align: center;
   padding: 2rem 1rem;
 }
+/* Estilos para botón flotante de WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
